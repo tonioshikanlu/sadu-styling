@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center; /* Add this line */
+    z-index: 1000; /* Ensure the navbar is above other elements */
+  }
+  
+  .navbar-logo {
+    height: 200px; /* Adjust as needed */
+  }
+  
+  .navbar-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; /* Adjust as needed */
+  }

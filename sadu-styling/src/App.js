@@ -4,21 +4,23 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-import Header from './components/Header'; // Import the Header component
+import Navbar from './components/Navbar'; // Import the Navbar component
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Header /> {/* Render the Header component */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-}
+    return (
+      <Router>
+        <div className="App">
+          <Navbar /> {/* Render the Navbar component */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer /> {/* Add the closing angle bracket here */}
+        </div>
+      </Router>
+    );  }
+
