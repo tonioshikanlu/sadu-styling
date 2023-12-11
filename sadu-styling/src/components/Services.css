@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/audrey');
+
+.services-header-image {
+    height: 90vh; 
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.services-header-text {
+    color: white;
+    font-family: 'Audrey', sans-serif;
+}
