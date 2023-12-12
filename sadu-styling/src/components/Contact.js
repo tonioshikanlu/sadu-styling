@@ -1,26 +1,44 @@
 import React from 'react';
+import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
-const Contact = () => {
+function Contact() {
     return (
         <div>
-            <h1>Contact Us</h1>
-            <form>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name" />
+        <h1 className="contact-header-text">Contact</h1>
+        <img src="https://images.unsplash.com/photo-1608461864721-b8f50c91c147?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sadu" className="contact-header-image" />
+
+        <div className="contact-container">
+            <div className="contact-header">
+                <h1>Contact Details</h1>
+            </div>
+            <div className="contact-section">
+                <div className="contact-column">
+                    <div>
+                        <FontAwesomeIcon icon={faPhone} />
+                        <p>+1-667-223-3698</p>
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        <p>contact@sadustyling.com</p>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" />
+                <div className="contact-column">
+                    <div>
+                        <FontAwesomeIcon icon={faMapMarkerAlt} />
+                        <p>Alexandria, VA, USA (+4 GMT)</p>
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faInstagram} />
+                        <p>@sadu_styling</p>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" />
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            </div>
+        </div>
         </div>
     );
-};
+}
 
 export default Contact;

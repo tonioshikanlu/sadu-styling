@@ -1,40 +1,30 @@
-// 1. Import the necessary libraries
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
+import './Gallery.css';
 
-// 2. Define the Gallery component
-const Gallery = () => {
-    const [photos, setPhotos] = useState([]);
+function Gallery() {
+    const instaFeed = useRef(null);
 
-    // 3. Fetch the Instagram feed using the Instagram Basic Display API
     useEffect(() => {
-        const fetchInstagramFeed = async () => {
-            try {
-                const response = await fetch(
-                    `https://graph.instagram.com/me/media?fields=media_url,permalink&access_token=YOUR_ACCESS_TOKEN`
-                );
-                const data = await response.json();
-                setPhotos(data.data);
-            } catch (error) {
-                console.error('Error fetching Instagram feed:', error);
-            }
-        };
+        const script = document.createElement('script');
+        script.src = "https://www.juicer.io/embed/toni_0sh/embed-code.js";
+        script.async = true;
+        script.defer = true;
 
-        fetchInstagramFeed();
+        instaFeed.current.appendChild(script);
     }, []);
 
-    // 4. Render the gallery
     return (
         <div>
-            <h1>Instagram Gallery</h1>
-            <div className="gallery">
-                {photos.map((photo) => (
-                    <a href={photo.permalink} target="_blank" rel="noopener noreferrer" key={photo.id}>
-                        <img src={photo.media_url} alt="Instagram Photo" />
-                    </a>
-                ))}
+            <div>
+                <img src="https://images.unsplash.com/photo-1587467512961-120760940315?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sadu" className="gallery-header-image" />
+                <h1 className="header-text">Gallery</h1>
+            </div>
+            
+            <div className='gallery-section' ref={instaFeed}>
+                <figure data-behold-id="ztQsLU97BhINDr8NBXYs"></figure>
             </div>
         </div>
     );
-};
+}
 
 export default Gallery;

@@ -33,7 +33,7 @@ export default function Pricing() {
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
-                Buy Hobby
+                Request Lite
               </MDBBtn>
             </MDBCardBody>
 
@@ -48,11 +48,7 @@ export default function Pricing() {
               <MDBTypography listUnStyled className="mb-0 px-4">
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
-                </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>1 Consultation</small>
                 </li>
               </MDBTypography>
             </MDBCardFooter>
@@ -64,7 +60,7 @@ export default function Pricing() {
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Basic Package</MDBCardTitle>
               <p className="text-muted">
-                Perfect for brides on a budget.
+                Perfect for brides with a smaller wedding.
               </p>
               <p className="h2 fw-bold">
                 $800
@@ -75,7 +71,7 @@ export default function Pricing() {
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
-                Buy Freelancer
+                Request Basic
               </MDBBtn>
             </MDBCardBody>
 
@@ -90,15 +86,11 @@ export default function Pricing() {
               <MDBTypography listUnStyled className="mb-0 px-4">
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>2 Consultations</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
-                </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>2 Ceremonies</small>
                 </li>
               </MDBTypography>
             </MDBCardFooter>
@@ -110,7 +102,7 @@ export default function Pricing() {
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Standard Package</MDBCardTitle>
               <p className="text-muted">
-                All the essentials for starting a business
+                Good value if you already have an idea of your looks.
               </p>
               <p className="h2 fw-bold">
                 $1500
@@ -121,7 +113,7 @@ export default function Pricing() {
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
-                Buy Startup
+                Request Standard
               </MDBBtn>
             </MDBCardBody>
 
@@ -136,20 +128,13 @@ export default function Pricing() {
               <MDBTypography listUnStyled className="mb-0 px-4">
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>3 Consultations</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>3 Ceremonies</small>
                 </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
-                </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
-                </li>
+
               </MDBTypography>
             </MDBCardFooter>
           </MDBCard>
@@ -160,7 +145,7 @@ export default function Pricing() {
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Premium Package</MDBCardTitle>
               <p className="text-muted">
-                All the essentials for starting a business
+                Most elegant and premium service you can get!
               </p>
               <p className="h2 fw-bold">
                 $2200
@@ -171,7 +156,7 @@ export default function Pricing() {
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
-                Buy Enterprise
+                Request Premium
               </MDBBtn>
             </MDBCardBody>
 
@@ -186,23 +171,19 @@ export default function Pricing() {
               <MDBTypography listUnStyled className="mb-0 px-4">
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>4 Consultations</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>Sustainable fashion choice recs</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>4 Ceremonies</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
-                </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Lorem Ipsum</small>
+                  <small>On-site styling</small>
                 </li>
               </MDBTypography>
             </MDBCardFooter>
