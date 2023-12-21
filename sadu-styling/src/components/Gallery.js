@@ -5,12 +5,15 @@ function Gallery() {
     const instaFeed = useRef(null);
 
     useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://www.juicer.io/embed/toni_0sh/embed-code.js";
-        script.async = true;
-        script.defer = true;
-
-        instaFeed.current.appendChild(script);
+        // Check if the script has already been added
+        if (!document.querySelector(`script[src="${"https://widgets.sociablekit.com/instagram-feed/widget.js"}"]`)) {
+            const script = document.createElement('script');
+            script.src = "https://widgets.sociablekit.com/instagram-feed/widget.js";
+            script.async = true;
+            script.defer = true;
+    
+            instaFeed.current.appendChild(script);
+        }
     }, []);
 
     return (
@@ -21,7 +24,7 @@ function Gallery() {
             </div>
             
             <div className='gallery-section' ref={instaFeed}>
-                <figure data-behold-id="ztQsLU97BhINDr8NBXYs"></figure>
+            <div class='sk-instagram-feed' data-embed-id='241093'></div>
             </div>
         </div>
     );

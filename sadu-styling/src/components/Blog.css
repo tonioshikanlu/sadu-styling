@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 
-.gallery-header-image {
+.blog-header-image {
     height: 90vh; 
     width: 100vw;
     object-fit: cover;
@@ -15,11 +15,11 @@ body {
 }
 
 
-.gallery-header-text {
+.blog-header-text {
     color: white;
     font-family: 'Audrey', sans-serif;
 }
 
-.gallery-section {
-    margin-top: 30vh;
+.blog-section {
+    margin-top: 600px;
 }

@@ -6,6 +6,8 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import NavBar from './components/Navbar'; 
 import Footer from './components/Footer';
+import Blog from './components/Blog';
+import NewsletterForm from './components/Newsletter';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -24,6 +26,7 @@ export default function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/newsletter" element={<NewsletterForm />} />
           </Routes>
           <Footer /> 
         </div>

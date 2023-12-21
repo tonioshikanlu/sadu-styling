@@ -32,6 +32,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link active" href="/contact">Contact</a>
                         </li>
+                        {/* <li className="nav-item">
+                            <a className="nav-link active" href="/blog">Blog</a>
+                        </li> */}
                     </ul>
                     {/* Left links */}
                 </div>

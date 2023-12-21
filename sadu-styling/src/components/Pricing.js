@@ -18,23 +18,23 @@ export default function Pricing() {
     <MDBContainer className="py-5 ">
 
       <MDBRow>
-        <MDBCol md="3">
+        <MDBCol xl="3">
           <MDBCard>
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Lite Package</MDBCardTitle>
               <p className="text-muted">
-                Perfect for one-off events eg. work parties, baby showers, photo shoots etc.
+                Perfect for events like work parties, baby showers etc.
               </p>
               <p className="h2 fw-bold">
                 $300
               </p>
               <MDBBtn
-                href="#"
+                href="mailto:contact@sadustyling.com?subject=Lite Package Request"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
-              >
+            >
                 Request Lite
-              </MDBBtn>
+            </MDBBtn>
             </MDBCardBody>
 
             <MDBCardFooter>
@@ -55,19 +55,19 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol md="3">
+        <MDBCol xl="3">
           <MDBCard border="dark">
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Basic Package</MDBCardTitle>
               <p className="text-muted">
-                Perfect for brides with a smaller wedding.
+                Perfect for brides with a smaller wedding or on a tighter budget.
               </p>
               <p className="h2 fw-bold">
                 $800
 
               </p>
               <MDBBtn
-                href="#"
+                href="mailto:contact@sadustyling.com?subject=Basic Package Request"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -97,7 +97,7 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol md="3">
+        <MDBCol xl="3">
           <MDBCard border="dark">
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Standard Package</MDBCardTitle>
@@ -109,7 +109,7 @@ export default function Pricing() {
 
               </p>
               <MDBBtn
-                href="#"
+                href="mailto:contact@sadustyling.com?subject=Standard Package Request"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -140,7 +140,7 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol md="3">
+        <MDBCol xl="3">
           <MDBCard border="dark">
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Premium Package</MDBCardTitle>
@@ -152,7 +152,7 @@ export default function Pricing() {
     
               </p>
               <MDBBtn
-                href="#"
+                href="mailto:contact@sadustyling.com?subject=Premium Package Request"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -172,10 +172,6 @@ export default function Pricing() {
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
                   <small>4 Consultations</small>
-                </li>
-                <li className="mb-3">
-                  <MDBIcon fas icon="check" className="text-success me-3" />
-                  <small>Sustainable fashion choice recs</small>
                 </li>
                 <li className="mb-3">
                   <MDBIcon fas icon="check" className="text-success me-3" />
