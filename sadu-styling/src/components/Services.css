@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/bodoni');
 
+body {
+    overflow-x: hidden;
+}
+
 .services-header-image {
     height: 90vh; 
     width: 100vw;
