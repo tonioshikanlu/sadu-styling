@@ -7,7 +7,7 @@ function Services() {
         <div>
             <div>
                 <img src="./rings.png" alt="sadu" className="header-image" />
-                <h1 className="header-text">Services</h1>
+                <h1 className="header-text">SERVICES</h1>
             </div>
             <div className="services-section">
                 <div className="services-title">

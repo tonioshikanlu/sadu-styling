@@ -20,7 +20,7 @@ function Gallery() {
         <div>
             <div>
                 <img src="https://images.unsplash.com/photo-1532454781337-fc3edff34f91?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHdlZGRpbmclMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D" alt="sadu" className="gallery-header-image" />
-                <h1 className="header-text">Gallery</h1>
+                <h1 className="header-text">GALLERY</h1>
             </div>
             
             <div className='gallery-section' ref={instaFeed}>
