@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/audrey');
+@import url('https://fonts.cdnfonts.com/css/bodoni');
 
 .services-header-image {
     height: 90vh; 
@@ -13,7 +13,7 @@
 
 .services-header-text {
     color: white;
-    font-family: 'Audrey', sans-serif;
+    font-family: 'Bodoni', sans-serif;
 }
 
 .services-title {
