@@ -43,7 +43,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         style={{
           margin: "10px",
           padding: "10px",
-          backgroundColor: "#4CAF50",
+          backgroundColor: "#5b6e6b",
           border: "none",
           color: "white",
           fontSize: "16px",

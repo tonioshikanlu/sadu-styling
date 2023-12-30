@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div>
         <h1 className="contact-header-text">Contact</h1>
-        <img src="https://images.unsplash.com/photo-1602070945737-067cfd04174c?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sadu" className="contact-header-image" />
+        <img src="https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGRyZXNzfGVufDB8fDB8fHww" alt="sadu" className="contact-header-image" />
 
         <div className="contact-container">
             <div className="contact-header">
@@ -18,7 +18,7 @@ function Contact() {
                 <div className="contact-column">
                     <div>
                         <FontAwesomeIcon icon={faPhone} />
-                        <p>+1 (667) 228-1329</p>
+                        <p>+1 (240) 685-6718</p>
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faEnvelope} />
