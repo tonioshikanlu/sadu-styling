@@ -7,7 +7,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg
 function Contact() {
     return (
         <div>
-        <h1 className="contact-header-text">Contact</h1>
+        <h1 className="contact-header-text">CONTACT</h1>
         <img src="https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGRyZXNzfGVufDB8fDB8fHww" alt="sadu" className="contact-header-image" />
 
         <div className="contact-container">
