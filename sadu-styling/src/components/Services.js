@@ -6,7 +6,7 @@ function Services() {
     return (
         <div>
             <div>
-                <img src="./rings.png" alt="sadu" className="header-image" />
+                <img src="./rings.avif" alt="sadu" className="header-image" />
                 <h1 className="header-text">SERVICES</h1>
             </div>
             <div className="services-section">
@@ -20,7 +20,6 @@ function Services() {
                 </ul>
                 <a href="./Sadustyling-Pricing.pdf" download className="download-button">See Full Brochure</a>
                 </div>
-                
                 <Pricing />
             </div>
         </div>

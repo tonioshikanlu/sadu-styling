@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <div>
-                <img src="./kraak.png" alt="sadu" className="header-image" />
+                <img src="./kraak.avif" alt="sadu" className="header-image" />
                 <h1 className="header-text">SADU STYLING</h1>
             </div>
             <div className="home">
@@ -25,7 +25,7 @@ const Home = () => {
                 <h1 className="testimonial-header">Testimonials</h1>
                     <Testimonial></Testimonial>
                 </div>
-                <div className="quote-section" style={{ backgroundImage: `url('/classy.png')` }}>
+                <div className="quote-section" style={{ backgroundImage: `url('/classy.avif')` }}>
                     <p className="quote-text" style={{ color: 'white' }}>I think fashion can always date, but I think if a woman has elegance, she doesn't date. - Alice Temperley</p>
                 </div> 
             </div>
