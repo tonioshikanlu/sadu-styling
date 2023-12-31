@@ -62,3 +62,16 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: row; /* Default to row on larger screens */
+}
+
+@media (max-width: 600px) {
+    .contact-flex-container {
+        flex-direction: column; /* Stack the columns vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+}

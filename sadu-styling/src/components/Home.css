@@ -31,9 +31,30 @@ body {
     line-height: 2.0;
     font-size: 20px;
     margin-right: 50px;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
+@media (max-width: 600px) {
+    .experience-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    .experience-title {
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial-header {
+        text-align: center !important;
+    }
+}
+
+.testimonial-header {
+    text-align: center !important;
+  }
+  
 .experience-title {
     flex: 1;
     padding: 20px;

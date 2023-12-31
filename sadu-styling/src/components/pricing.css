@@ -1,30 +1,7 @@
 html {
     font-size: 14px;
   }
-  @media (min-width: 768px) {
-    html {
-      font-size: 16px;
-    }
-  }
   
-  .container {
-    max-width: 960px;
-  }
-  
-  .pricing-header {
-    max-width: 700px;
-  }
-  
-  .card-deck .card {
-    min-width: 220px;
-  }
-
-  .card-deck {
-    flex-direction: row !important;
-  }
-  
-  .boxes-container {
-    display: flex;
-    flex-wrap: wrap; /* If you want the boxes to wrap to the next line when there's not enough space */
-    justify-content: space-between; /* If you want equal space between the boxes */
-  }
+.card-column {
+  margin-bottom: 20px;
+}

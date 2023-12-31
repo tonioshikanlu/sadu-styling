@@ -6,7 +6,6 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import NavBar from './components/Navbar'; 
 import Footer from './components/Footer';
-import Blog from './components/Blog';
 import NewsletterForm from './components/Newsletter';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

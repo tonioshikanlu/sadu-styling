@@ -22,6 +22,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
+                <h1 className="testimonial-header">Testimonials</h1>
                     <Testimonial></Testimonial>
                 </div>
                 <div className="quote-section" style={{ backgroundImage: `url('/classy.png')` }}>

@@ -12,7 +12,7 @@ function Services() {
             <div className="services-section">
                 <div className="services-title">
                     <h2>The Sadu Styling Packages</h2>
-                <p className='services-title-content'> All pakcages come with the following: </p>
+                <p className='services-title-content'> All packages come with the following: </p>
                 <ul className="services-list">
                     <li>Mood Board Creation</li>
                     <li>Vendor Sourcing</li>

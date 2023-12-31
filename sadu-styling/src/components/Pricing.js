@@ -1,7 +1,6 @@
 import React from "react";
 import {
   MDBContainer,
-  MDBBtnGroup,
   MDBBtn,
   MDBRow,
   MDBCol,
@@ -12,13 +11,14 @@ import {
   MDBIcon,
   MDBCardTitle,
 } from "mdb-react-ui-kit";
+import './Pricing.css';
 
 export default function Pricing() {
   return (
     <MDBContainer className="py-5 ">
 
       <MDBRow>
-        <MDBCol xl="3">
+        <MDBCol xl="3" className="card-column">
         <MDBCard style={{ borderRadius: '25px' }}>
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Lite Package</MDBCardTitle>
@@ -52,7 +52,7 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol xl="3">
+        <MDBCol xl="3" className="card-column">
           <MDBCard style={{ borderRadius: '25px' }}>
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Basic Package</MDBCardTitle>
@@ -90,7 +90,7 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol xl="3">
+        <MDBCol xl="3" className="card-column">
           <MDBCard style={{ borderRadius: '25px' }}>
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Standard Package</MDBCardTitle>
@@ -130,7 +130,7 @@ export default function Pricing() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol xl="3">
+        <MDBCol xl="3" className="card-column">
           <MDBCard style={{ borderRadius: '25px' }}>
             <MDBCardBody className="mx-2">
               <MDBCardTitle className="my-2">Premium Package</MDBCardTitle>
