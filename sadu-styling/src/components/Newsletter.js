@@ -26,7 +26,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 
   return (
     <form onSubmit={submit}>
-      <h3 style={{ color: 'white' }}>Join our newsletter!</h3>
+      <h1 style={{ color: 'white' }}>Join our newsletter!</h1>
       <input
         ref={node => (email = node)}
         type="email"
