@@ -34,7 +34,7 @@ const PreviousBtn = (props) => {
           <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
             <Card img="/isi.avif" text="My wedding was a dream come true, and a big part of that was thanks to Sadu Styling. The attention to detail, the exquisite design, and the quality of the dress were beyond my expectations. I felt like a queen on my special day. I can't thank Sadu Styling enough!" name="Isi" event="Bride '23" />
             <Card img="/deb.avif" text="Choosing Sadu Styling for my bridal dress was the best decision I made for my wedding. The team was incredibly supportive and understood my vision perfectly. The dress was a masterpiece, and I received so many compliments. I highly recommend Sadu Styling to all future brides!" name="Deb" event="Bride '23" />
-            <Card img="/moyin.avif" text="Sadu Styling made my bridal shopping experience unforgettable. The variety of designs and the quality of the dresses were impressive. My dress fit me perfectly and looked stunning. I couldn't be happier with my choice. Thank you, Sadu Styling!" name="Moyin" event="Bride '23"/>
+            <Card img="/moyin.avif" text="Sadu is my go to at any point. When I'm in a bind and even when I'm not because I know they'll give me even better options than what I had or at the very least, give me an elevated version of what I had in mind. They stay in the know and follow literally every brand there is so they'll always have unique options at every price point to fit your budget!" name="Moyin" event="Bride '23"/>
           </Slider>
         </div>
       </div>
